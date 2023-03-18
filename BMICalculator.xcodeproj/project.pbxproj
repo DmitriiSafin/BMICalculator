@@ -16,6 +16,9 @@
 		2842F9FB298CD4E70042235F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2842F9FA298CD4E70042235F /* ResultViewController.swift */; };
 		2842F9FD298CDD740042235F /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2842F9FC298CDD740042235F /* CalculatorBrain.swift */; };
 		2842F9FF298D0D1D0042235F /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2842F9FE298D0D1D0042235F /* BMI.swift */; };
+		286F259329C58CA70018B7F8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 286F259229C58CA70018B7F8 /* README.md */; };
+		286F259629C58D0A0018B7F8 /* ScreeniPhone14.png in Resources */ = {isa = PBXBuildFile; fileRef = 286F259529C58D0A0018B7F8 /* ScreeniPhone14.png */; };
+		286F259829C58F350018B7F8 /* appWork.gif in Resources */ = {isa = PBXBuildFile; fileRef = 286F259729C58F350018B7F8 /* appWork.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		2842F9FA298CD4E70042235F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		2842F9FC298CDD740042235F /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		2842F9FE298D0D1D0042235F /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		286F259229C58CA70018B7F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		286F259529C58D0A0018B7F8 /* ScreeniPhone14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreeniPhone14.png; sourceTree = "<group>"; };
+		286F259729C58F350018B7F8 /* appWork.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = appWork.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,8 @@
 		2814E514298BF2E900FB94A7 = {
 			isa = PBXGroup;
 			children = (
+				286F259229C58CA70018B7F8 /* README.md */,
+				286F259429C58CCB0018B7F8 /* ReadmeResources */,
 				2814E51F298BF2E900FB94A7 /* BMICalculator */,
 				2814E51E298BF2E900FB94A7 /* Products */,
 			);
@@ -98,6 +106,15 @@
 				2842F9FE298D0D1D0042235F /* BMI.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		286F259429C58CCB0018B7F8 /* ReadmeResources */ = {
+			isa = PBXGroup;
+			children = (
+				286F259529C58D0A0018B7F8 /* ScreeniPhone14.png */,
+				286F259729C58F350018B7F8 /* appWork.gif */,
+			);
+			path = ReadmeResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,8 +175,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286F259629C58D0A0018B7F8 /* ScreeniPhone14.png in Resources */,
 				2814E52D298BF2ED00FB94A7 /* LaunchScreen.storyboard in Resources */,
 				2814E52A298BF2ED00FB94A7 /* Assets.xcassets in Resources */,
+				286F259829C58F350018B7F8 /* appWork.gif in Resources */,
+				286F259329C58CA70018B7F8 /* README.md in Resources */,
 				2814E528298BF2E900FB94A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
